@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.wd-page-head{
+    margin-left: 16px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.wd-float-done{
+    clear: both;
+}
+
+.wd-menu-button {
+    color: rgb(110,118,125);
+    font-size: 13px;
+    position: relative;
+    float: right;
+}
+
+.wd-tuit-author {
+    font-weight: bold;
+    color: white;
+}

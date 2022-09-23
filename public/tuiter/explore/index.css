@@ -1,17 +1,5 @@
-body {
-    color: white;
-    background-color: black;
-    font-family: Arial, sans-serif;
-}
-
 input:focus {
     outline: none !important;
-}
-
-.wd-page-head{
-    margin-left: 16px;
-    background-color: #7070ff;
-    position: relative;
 }
 
 .wd-search-bar {
@@ -46,14 +34,10 @@ input:focus {
     filter: invert(71%) sepia(29%) saturate(6409%) hue-rotate(183deg) brightness(95%) contrast(94%);
 }
 
-.wd-float-done{
-    clear: both;
-}
-
 .wd-search-navigation{
     position: relative;
     color: white;
-    border-bottom: rgb(110, 118, 125) solid 2px;
+    border-bottom: rgb(90, 98, 105) solid 3px;
     white-space: nowrap;
     max-height: 55px;
     overflow: hidden;
@@ -84,22 +68,25 @@ input:focus {
 }
 
 .wd-separator {
-    height: 10px;
+    height: 15px;
     background-color: #212121;
-    border-bottom: solid #434043 1px;
+    border-bottom: solid rgb(110,118,125) 1px;
 }
 
-.wd-tuit-block {
+.wd-tuit-block { /*global*/
     position: relative;
     padding: 16px;
-    border-bottom: 0.5px rgb(110,118,125) solid;
+    border-bottom: 1px rgb(110,118,125) solid;
     overflow: hidden;
     min-width: 600px;
 }
 
-.wd-tuit-block-text {
+.wd-tuit-block-text { /*global*/
     position: relative;
     float: left;
+}
+
+.wd-compact-text {
     max-width: 450px;
     overflow: hidden;
 }
@@ -116,13 +103,6 @@ input:focus {
     position: relative;
 }
 
-.wd-tuit-block-info {
-    color: rgb(110,118,125);
-    font-size: 13px;
-    position: relative;
-    float: right;
-}
-
 .wd-tuit-block-img {
     border-radius: 30%;
     position: relative;
@@ -131,11 +111,7 @@ input:focus {
     overflow: hidden;
 }
 
-.wd-tuit-block-author {
-    font-weight: bold;
-    color: white;
-}
-.wd-tuit-block-author img {
+.wd-tuit-author img {
     width: 15px;
     height: 15px;
     margin: 0px 1px 0px 1px;
