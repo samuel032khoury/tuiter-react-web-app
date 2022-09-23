@@ -8,14 +8,8 @@ input:focus {
     outline: none !important;
 }
 
-.wd-left-margin {
-    margin-left: 16px;
-}
-.wd-right-margin {
-    margin-right: 16px;
-}
-
 .wd-page-head{
+    margin-left: 16px;
     background-color: #7070ff;
     position: relative;
 }
@@ -82,7 +76,6 @@ input:focus {
 }
 
 .wd-search-navigation-selection {
-    color: rgb(29,161,242);
     border-bottom: rgb(29,161,242) solid 4px;
 }
 
@@ -113,19 +106,19 @@ input:focus {
 
 .wd-tuit-block-title {
     font-weight: bold;
-    font-size: 17px;
-    padding: 10px 0px 8px 0px;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
 }
 
 .wd-tuit-block-subtitle {
     color: rgb(110,118,125);
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
 }
 
 .wd-tuit-block-info {
     color: rgb(110,118,125);
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
     float: right;
 }
@@ -141,12 +134,12 @@ input:focus {
 .wd-tuit-block-author {
     font-weight: bold;
     color: white;
-    vertical-align: middle;
 }
 .wd-tuit-block-author img {
-    width: 16px;
-    height: 16px;
-    margin: 0px 2px 0px 2px;
+    width: 15px;
+    height: 15px;
+    margin: 0px 1px 0px 1px;
+    vertical-align: middle;
 }
 
 .wd-tuit-block-img img {
