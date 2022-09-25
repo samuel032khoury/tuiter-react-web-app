@@ -2,14 +2,22 @@ input:focus {
     outline: none !important;
 }
 
+.wd-explore-page-head{
+    min-width: 616px;
+    padding-left: 16px;
+    padding-top: 12px;
+    position: relative;
+    min-height: 33px;
+}
+
 .wd-search-bar {
     position: relative;
     float: left;
     height: 30px;
     width: calc(100% - 50px);
     border-radius: 30px;
-    background-color: #475154;
-    border: #475154 solid 2px;
+    background-color: #212327;
+    border: #212327 solid 2px;
 }
 
 .wd-icon-mag-glass {
@@ -21,7 +29,7 @@ input:focus {
 
 .wd-search-input {
     position: relative;
-    background-color: #475154;
+    background-color: #212327;
     border: #475154 solid 0px;
     color: white;
     height: 25px;
@@ -37,10 +45,11 @@ input:focus {
 .wd-search-navigation{
     position: relative;
     color: white;
-    border-bottom: rgb(90, 98, 105) solid 3px;
+    border-bottom: rgb(48,52,53) solid 3px;
     white-space: nowrap;
     max-height: 55px;
     overflow: hidden;
+    min-width: 632px;
 }
 
 .wd-search-navigation-item {
@@ -69,21 +78,10 @@ input:focus {
 
 .wd-separator {
     height: 15px;
-    background-color: #212121;
-    border-bottom: solid rgb(110,118,125) 1px;
-}
-
-.wd-tuit-block { /*global*/
-    position: relative;
-    padding: 16px;
-    border-bottom: 1px rgb(110,118,125) solid;
-    overflow: hidden;
-    min-width: 600px;
-}
-
-.wd-tuit-block-text { /*global*/
-    position: relative;
-    float: left;
+    background-color: #17191D;
+    border-bottom: solid rgb(47,51, 54) 1px;
+    min-width: 632px;
+    width: auto;
 }
 
 .wd-compact-text {
