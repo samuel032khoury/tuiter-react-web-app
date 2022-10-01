@@ -11,7 +11,6 @@ body {
 .wd-blog-menu-button {
     color: rgb(110,118,125);
     font-size: 13px;
-    position: relative;
     float: right;
 }
 
@@ -21,20 +20,21 @@ body {
     font-size: 20px;
 }
 
-.wd-tuit-author {
+.wd-text-title {
     font-weight: bold;
     color: white;
 }
 
 .wd-tuit-block {
-    position: relative;
-    padding: 12px 16px 12px 16px;
     border-bottom: 1px rgb(47,51,54) solid;
-    overflow: hidden;
     min-width: 600px;
 }
 
-.wd-tuit-block-text {
-    position: relative;
+.wd-tuit-content {
     float: left;
+}
+
+.wd-container {
+    padding: 12px 16px 12px 16px;
+    overflow: hidden;
 }

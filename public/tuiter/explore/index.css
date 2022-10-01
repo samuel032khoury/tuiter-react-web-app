@@ -6,12 +6,10 @@ input:focus {
     min-width: 616px;
     padding-left: 16px;
     padding-top: 12px;
-    position: relative;
     min-height: 33px;
 }
 
 .wd-search-bar {
-    position: relative;
     float: left;
     height: 30px;
     width: calc(100% - 50px);
@@ -28,7 +26,6 @@ input:focus {
 }
 
 .wd-search-input {
-    position: relative;
     background-color: #212327;
     border: #475154 solid 0px;
     color: white;
@@ -43,7 +40,6 @@ input:focus {
 }
 
 .wd-search-navigation{
-    position: relative;
     color: white;
     border-bottom: rgb(48,52,53) solid 3px;
     white-space: nowrap;
@@ -53,7 +49,6 @@ input:focus {
 }
 
 .wd-search-navigation-item {
-    position: relative;
     float: left;
     width: calc(16% - 32px);
     padding: 16px;
@@ -98,18 +93,16 @@ input:focus {
 .wd-tuit-block-subtitle {
     color: rgb(110,118,125);
     font-size: 13px;
-    position: relative;
 }
 
 .wd-tuit-block-img {
     border-radius: 30%;
-    position: relative;
     float: right;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.wd-tuit-author img {
+.wd-tuit-block-subtitle img {
     width: 15px;
     height: 15px;
     margin: 0px 1px 0px 1px;
