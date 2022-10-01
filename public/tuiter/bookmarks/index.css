@@ -61,6 +61,39 @@
     max-width: 506px;
     max-height: 264px;
 }
+
 .wd-tuit-img-card p{
     margin: 0px 0;
 }
+
+.wd-bg_db {
+    background-color: yellow;
+}
+
+.wd-post-operation {
+    position: relative;
+    float: left;
+    width: 25%;
+}
+
+.wd-post-counter {
+    margin: 12px;
+    color: rgb(110,118,125);
+}
+
+.wd-post-counter-clicked {
+    color: red;
+}
+
+.wd-post-operation a {
+    text-decoration: none;
+}
+
+.wd-post-operation img {
+    width: 17px;
+    /*height: 18px;*/
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
