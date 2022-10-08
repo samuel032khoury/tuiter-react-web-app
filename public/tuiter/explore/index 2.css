@@ -1,0 +1,124 @@
+input:focus {
+    outline: none !important;
+}
+
+.wd-explore-page-head{
+    min-width: 616px;
+    padding-left: 16px;
+    padding-top: 12px;
+    position: relative;
+    min-height: 33px;
+}
+
+.wd-search-bar {
+    position: relative;
+    float: left;
+    height: 30px;
+    width: calc(100% - 50px);
+    border-radius: 30px;
+    background-color: #212327;
+    border: #212327 solid 2px;
+}
+
+.wd-icon-mag-glass {
+    position: relative;
+    top:5px;
+    margin: 0px  10px 0px 20px;
+    filter: invert(80%) brightness(60%) grayscale(100%);
+}
+
+.wd-search-input {
+    position: relative;
+    background-color: #212327;
+    border: #475154 solid 0px;
+    color: white;
+    height: 25px;
+    width: calc(100% - 70px);
+}
+
+.wd-icon-gear {
+    float: right;
+    margin: 8px 12px;
+    filter: invert(71%) sepia(29%) saturate(6409%) hue-rotate(183deg) brightness(95%) contrast(94%);
+}
+
+.wd-search-navigation{
+    position: relative;
+    color: white;
+    border-bottom: rgb(48,52,53) solid 3px;
+    white-space: nowrap;
+    max-height: 55px;
+    overflow: hidden;
+    min-width: 632px;
+}
+
+.wd-search-navigation-item {
+    position: relative;
+    float: left;
+    width: calc(16% - 32px);
+    padding: 16px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wd-search-navigation-text {
+    color: rgb(110,118,125);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.wd-search-navigation-selection {
+    border-bottom: rgb(29,161,242) solid 4px;
+}
+
+.wd-search-navigation-selection-text {
+    color: rgb(29,161,242);
+}
+
+.wd-separator {
+    height: 15px;
+    background-color: #17191D;
+    border-bottom: solid rgb(47,51, 54) 1px;
+    min-width: 632px;
+    width: auto;
+}
+
+.wd-compact-text {
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.wd-tuit-block-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+}
+
+.wd-tuit-block-subtitle {
+    color: rgb(110,118,125);
+    font-size: 13px;
+    position: relative;
+}
+
+.wd-tuit-block-img {
+    border-radius: 30%;
+    position: relative;
+    float: right;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wd-tuit-author img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 1px 0px 1px;
+    vertical-align: middle;
+}
+
+.wd-tuit-block-img img {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
