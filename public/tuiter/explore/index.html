@@ -3,136 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
-    <link href="index.css" rel="stylesheet">
-    <link href="../styles.css" rel="stylesheet">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-explore-page-head">
-    <div class="wd-search-bar">
-        <form>
-            <label for="search-input">
-                <img class="wd-icon-mag-glass" src="../image/magnifying-glass.svg" alt="magnifying-glass" height="20px">
-            </label>
-            <input id="search-input" class="wd-search-input" placeholder="Search Tuiter" autocomplete="off">
-        </form>
+
+<!--SIZE REF-->
+<!--<div class="d-block d-sm-none fa-2x">XS</div>-->
+<!--<div class="d-none d-sm-block d-md-none">S</div>-->
+<!--<div class="d-none d-md-block d-lg-none">M</div>-->
+<!--<div class="d-none d-lg-block d-xl-none">L</div>-->
+<!--<div class="d-none d-xl-block d-xxl-none">XL</div>-->
+<!--<div class="d-none d-xxl-block">XXL</div>-->
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-2 col-lg-1 col-xl-2">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <i class="fab fa-twitter m-xl-1"></i>
+                </div>
+                <a class="list-group-item list-group-item-action" href="../home.html">
+                    <i class="fa fa-home m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Home
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action active" href="#">
+                    <i class="fa fa-hashtag m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Explore
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="../notifications.html">
+                    <i class="fa fa-bell m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Notifications
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="../messages.html">
+                    <i class="fa fa-envelope m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Messages
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="../bookmarks/index.html">
+                    <i class="fa fa-bookmark m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Bookmarks
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="../lists.html">
+                    <i class="fa fa-list m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Lists
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="../profile.html">
+                    <i class="fa fa-user m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        Profile
+                    </span>
+                </a>
+                <a class="list-group-item list-group-item-action" href="#">
+                    <i class="fa fa-ellipsis-h m-xl-1" aria-hidden="true"></i>
+                    <span class="d-none d-xl-inline">
+                        More
+                    </span>
+                </a>
+            </div>
+            <button class="btn btn-primary w-100 mt-1 rounded-pill" formaction="">
+                Tuit
+            </button>
+        </div>
+        <div class="col-lg-7 col-xl-6 col-10">
+            <div class="row mb-1 align-items-center">
+                <div class="col-11">
+                    <div class="position-relative">
+                        <input id="search-input" class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
+                        <label for="search-input" class="position-absolute wd-search-tuiter"><i class="fa fa-search"></i> </label>
+                    </div>
+                </div>
+                <div class="position-relative col-1 p-0 p-xxl-2">
+                    <a href="explore-settings.html">
+                        <i class="fas fa-cog fa-2x wd-cog" style="color: royalblue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs mt-1 mb-2 text-nowrap flex-nowrap overflow-scroll">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        For You
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Trending
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        News
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1">
+                        Sports
+                    </a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="#" tabindex="-1">
+                        Entertainment
+                    </a>
+                </li>
+            </ul>
+
+            <div class="position-relative">
+                <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%" alt="spaceship"/>
+                <h1 class="position-absolute wd-big-img-cap text-white">SpaceX's Starship</h1>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8 col-sm-9">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <span class="fw-bolder">ReactJS</span> <i class="fa fa-check-circle"></i> <span
+                                    class="text-secondary">- 2h</span>
+                            </div>
+                            <div class="fw-bolder">
+                                React.js is a component based front end library that makes it very easy to build
+                                Single Page Applications or SPAS
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-3">
+                            <img class="float-end rounded-3" src="../../logo192.png" height="100px" alt="react">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8 col-sm-9">
+                            <div>
+                                <span class="fw-bolder">JavaScript</span> <i class="fa fa-check-circle"></i> <span
+                                    class="text-secondary">- 2h</span>
+                            </div>
+                            <div class="fw-bolder">
+                                JavaScript is programming language that can run on browsers as well as desktops
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-3">
+                            <img class="float-end rounded-3" src="https://2ality.com/2011/10/logo-js/js.jpg"
+                                 height="100px"
+                                 alt="javascript">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8 col-sm-9">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <span class="fw-bolder">jQuery</span>
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-3">
+                            <img class="float-end rounded-3"
+                                 src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" height="100px" alt="jquery">
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-8 col-sm-9">
+                            <div class="text-secondary">
+                                Web Development
+                            </div>
+                            <div>
+                                <span class="fw-bolder">NodeJS</span>
+                            </div>
+                            <div class="text-secondary">
+                                123K Tuits
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-3">
+                            <img class="float-end rounded-3"
+                                 src="https://miro.medium.com/max/1000/1*TGwJKcxY8kGEenRLLedeLw.png" height="100px"
+                                 alt="node">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="d-none d-lg-block col-lg-4">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <span class="fw-bold">Who to follow</span>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2  pe-0 my-auto">
+                            <img class="img-fluid rounded-circle wd-rec-follow-avatar"
+                                 src="https://cdn.iconscout.com/icon/free/png-256/java-23-225999.png" alt="java"/>
+                        </div>
+                        <div class="col-6 col-xxl-7 my-auto">
+                            <span class="fw-bold">Java</span> <i class="fa fa-check-circle"></i><br>
+                            <span class="wd-text-grey">@Java</span>
+                        </div>
+                        <div class="col-4 col-xxl-3 my-auto">
+                            <button class="px-3 btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 pe-0 my-auto">
+                            <img class="img-fluid rounded-circle wd-rec-follow-avatar"
+                                 src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy"
+                                 alt="relativity-space"/>
+                        </div>
+                        <div class="col-6 col-xxl-7 my-auto">
+                            <span class="fw-bold">Relativity Space</span> <i class="fa fa-check-circle"></i><br>
+                            <span class="wd-text-grey">@relativityspace</span>
+                        </div>
+                        <div class="col-4 col-xxl-3 my-auto">
+                            <button class="px-3 btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 pe-0 my-auto">
+                            <img class="img-fluid rounded-circle wd-rec-follow-avatar"
+                                 src="https://cdn.iconscout.com/icon/free/png-256/tesla-14-892143.png" alt="tesla"/>
+                        </div>
+                        <div class="col-6 col-xxl-7 my-auto">
+                            <span class="fw-bold">Tesla</span> <i class="fa fa-check-circle"></i><br>
+                            <span class="wd-text-grey">@Tesla</span>
+                        </div>
+                        <div class="col-4 col-xxl-3 my-auto">
+                            <button class="px-3 btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 pe-0 my-auto">
+                            <img class="img-fluid rounded-circle wd-rec-follow-avatar"
+                                 src="https://t0.gstatic.com/images?q=tbn:ANd9GcQ9u48pu-6IB2FnnYl_H-15le_g8Dkt5d5RN-VWiWIl_-dyJdaa"
+                                 alt="nasa"/>
+                        </div>
+                        <div class="col-6 col-xxl-7 my-auto">
+                            <span class="fw-bold">NASA</span> <i class="fa fa-check-circle"></i><br>
+                            <span class="wd-text-grey">@NASA</span>
+                        </div>
+                        <div class="col-4 col-xxl-3 my-auto">
+                            <button class="px-3 btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 pe-0 my-auto">
+                            <img class="img-fluid rounded-circle wd-rec-follow-avatar"
+                                 src="https://media.glassdoor.com/sqll/486741/virgin-galactic-squareLogo-1658986296073.png" alt="vg"/>
+                        </div>
+                        <div class="col-6 col-xxl-7 my-auto text-nowrap">
+                            <span class="fw-bold">Virgin Galactic</span> <i class="fa fa-check-circle"></i><br>
+                            <span class="wd-text-grey">@virgingalactic</span>
+                        </div>
+                        <div class="col-4 col-xxl-3 my-auto">
+                            <button class="px-3 btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <a href="explore-settings.html"><img alt="gear" class="wd-icon-gear" height="20px" src="../image/gear.png"></a>
 </div>
-<div class="wd-float-done"></div>
-<div class="wd-search-navigation">
-    <div class="wd-search-navigation-item wd-search-navigation-selection">
-        <a class="wd-search-navigation-text wd-search-navigation-selection-text" href="foryou.html">For you</a>
-    </div>
-    <div class="wd-search-navigation-item">
-        <a class="wd-search-navigation-text" href="trending.html">Trending</a>
-    </div>
-    <div class="wd-search-navigation-item">
-        <a class="wd-search-navigation-text" href="covid19.html">COVID-19</a>
-    </div>
-    <div class="wd-search-navigation-item">
-        <a class="wd-search-navigation-text" href="news.html">News</a>
-    </div>
-    <div class="wd-search-navigation-item">
-        <a class="wd-search-navigation-text" href="sports.html">Sports</a>
-    </div>
-    <div class="wd-search-navigation-item">
-        <a class="wd-search-navigation-text" href="entertainment.html">Entertainment</a>
-    </div>
-</div>
-<div class="wd-float-done"></div>
-<div class="wd-separator"></div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            Trending in Science
-        </div>
-        <div class="wd-tuit-block-title">
-            Genetic Engineering
-        </div>
-        <div class="wd-tuit-block-subtitle">
-            5,281 Tuits
-        </div>
-    </div>
-    <div class="wd-blog-menu-button">
-        •••
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            Sports · Trending
-        </div>
-        <div class="wd-tuit-block-title">
-            Baseball
-        </div>
-        <div class="wd-tuit-block-subtitle">
-            55.5K Tuits
-        </div>
-    </div>
-    <div class="wd-blog-menu-button">
-        •••
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            Tehnology · 2h ago
-        </div>
-        <div class="wd-tuit-block-title">
-            Amazon is Tightening its Ebook Return Policy
-        </div>
-    </div>
-    <div class="wd-tuit-block-img">
-        <img src="../image/amazon.png" alt="amazon">
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            <span class="wd-text-title"><img src="nyt.png" alt="nyt"> New York Times <img
-                    src="../image/aut.png" alt="authorized"></span> · Yesterday
-        </div>
-        <div class="wd-tuit-block-title">
-            Snap Hires New Compliance Chief From Peloton
-        </div>
-    </div>
-    <div class="wd-tuit-block-img">
-        <img src="../image/snap.png" alt="snap">
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            <span class="wd-text-title"><img src="../image/wsj.png" alt="wsj"> The Wall Street Journal <img
-                    src="../image/aut.png" alt="amazon"></span> · Today
-        </div>
-        <div class="wd-tuit-block-title">
-            Celtics Coach Ime Udoka Suspended for 2022-23 Season
-        </div>
-    </div>
-    <div class="wd-tuit-block-img">
-        <img src="../image/boston.png" alt="boston">
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-tuit-block wd-container">
-    <div class="wd-tuit-content wd-compact-text">
-        <div class="wd-tuit-block-subtitle">
-            Finance · 53m ago
-        </div>
-        <div class="wd-tuit-block-title">
-            Could Gold be the Basis for a New Global Currency?
-        </div>
-    </div>
-    <div class="wd-tuit-block-img">
-        <img src="../image/gold.png" alt="gold">
-    </div>
-    <div class="wd-float-done"></div>
-</div>
-<div class="wd-float-done"></div>
 </body>
 </html>
