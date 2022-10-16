@@ -12,7 +12,7 @@ const PostSummary = () => {
                     </div>
                 </div>
                 <div class="position-relative col-1 p-0 p-xxl-2">
-                    <a href="../explore-settings.html">
+                    <a href="../explore/explore-settings.html">
                         <i class="fas fa-cog fa-2x wd-cog" style="color: royalblue"></i>
                     </a>
                 </div>
