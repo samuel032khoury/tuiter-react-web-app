@@ -1,0 +1,19 @@
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-rec-follow-avatar {
+    max-height: 55px;
+    object-fit: cover;
+}
+
+.wd-big-img-cap {
+    bottom: 0px;
+    left: 10px;
+}
+
+.wd-text-grey {
+    color: darkslategrey;
+    font-size: 14px;
+}
