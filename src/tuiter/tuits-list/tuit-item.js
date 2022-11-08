@@ -21,7 +21,7 @@ const TuitItem = (
         <div className="col-11">
           <i className="bi bi-x-lg float-end"
              onClick={() => deleteTuitHandler(post._id)}></i>
-          <div><span className="fw-bolder"> {post.userName}</span> <span><img width={"14"}
+          <div><span className="fw-bolder"> {post.username}</span> <span><img width={"14"}
                                                                               src={"/image/badge.png"}></img></span> {`${post.handle} • ${post.time}`}
           </div>
           <div>{post.tuit}</div>
