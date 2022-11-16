@@ -16,6 +16,7 @@ export const findTuitsThunk = createAsyncThunk(
 export const deleteTuitThunk = createAsyncThunk(
   'tuits/deleteTuit',
   async (tuitId) => {
+    console.log("DEBUG", tuitId);
     await service.deleteTuit(tuitId);
     return tuitId;
   });

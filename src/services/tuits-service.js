@@ -21,12 +21,12 @@ export const createTuit = async (tuit) => {
     "title": "new tuit"
   };
   const newtuit = {
-    _id: (new Date()).getTime(),
     tuit: tuitContent,
     ...templateTuit,
   };
   const response = await axios.post(TUITS_API, newtuit);
-  return newtuit;
+  console.log(response);
+  return response.data;
 }
 export const findTuits = async () => {
   const response = await axios.get(TUITS_API);
