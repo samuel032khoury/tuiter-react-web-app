@@ -6,7 +6,7 @@ const TUITS_API = `${API_BASE}/tuits`;
 export const createTuit = async (tuit) => {
   const tuitContent = tuit["tuit"];
   const currentUser = {
-    "userName": "NASA",
+    "username": "NASA",
     "handle": "@nasa",
     "image": "nasa.png",
   };
